@@ -3,6 +3,11 @@
 
 ## tecnologias
 HTML
+</br>
 CSS
+</br>
 JAVASCRIPT
+</br>
 UI DESIGN
+</br>
+- Para mais projetos e sobre mim: [Visite meu blog](https://www.instagram.com/devcodepro/)

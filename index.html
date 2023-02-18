@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Function JS</title>
+</head>
+<body>
+    
+    <h2>AppIMC</h2>
+    <form onsubmit="return calcular(event)">
+        <label for="peso">Digite seu Peso</label>
+        <input type="text" name="peso" id="peso" placeholder="Exemplo 65" /> <br><br>
+        
+        <label for="altura">Digite sua Altura</label>
+        <input type="text" name="altura" id="altura" placeholder="Exemplo 1.90 (informe com o ponto)" /> <br><br>
+
+        <input onclick="return calcular(event)" class="btn" type="submit" value="Calcular IMC" />
+
+    </form>
+
+    <div id="resultado"></div>
+
+    <small>Projeto desenvolvido por <a href="https://github.com/devlucaspro/"><span>Lucas ribeiro</span></a></small>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
